@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://people.debian.org/~kov/gksu/libgksuui1.0/%{name}1.0-%{version}.tar.gz
 # Source0-md5:	2f1f3539a0113aa97712cb490fd27e10
 URL:		http://www.nongnu.org/gksu/
-BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	gtk-doc >= 1.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
