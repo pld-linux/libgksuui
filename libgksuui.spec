@@ -1,12 +1,12 @@
 Summary:	libgksuui library
 Summary(pl):	Biblioteka libgksuui
 Name:		libgksuui
-Version:	1.0.3
+Version:	1.0.6
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://people.debian.org/~kov/gksu/libgksuui1.0/%{name}1.0-%{version}.tar.gz
-# Source0-md5:	2f1f3539a0113aa97712cb490fd27e10
+# Source0-md5:	c629d4950996f2e986ff46c658eb35ef
 URL:		http://www.nongnu.org/gksu/
 BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	gtk-doc >= 1.0
@@ -51,7 +51,6 @@ Statyczna biblioteka libgksuui.
 %configure \
 	--enable-gtk-doc \
 	--with-html-dir=%{_gtkdocdir}
-
 %{__make}
 
 %install
