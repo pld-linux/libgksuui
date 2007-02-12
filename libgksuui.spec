@@ -1,5 +1,5 @@
 Summary:	libgksuui library
-Summary(pl):	Biblioteka libgksuui
+Summary(pl.UTF-8):   Biblioteka libgksuui
 Name:		libgksuui
 Version:	1.0.7
 Release:	3
@@ -16,12 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 libgksuui library.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka libgksuui.
 
 %package devel
 Summary:	Header files for libgksuui library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libgksuui
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libgksuui
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtk+2-devel >= 2:2.10.1
@@ -29,19 +29,19 @@ Requires:	gtk+2-devel >= 2:2.10.1
 %description devel
 Header files for libgksuui library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libgksuui.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libgksuui.
 
 %package static
 Summary:	Static libgksuui library
-Summary(pl):	Statyczna biblioteka libgksuui
+Summary(pl.UTF-8):   Statyczna biblioteka libgksuui
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libgksuui library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libgksuui.
 
 %prep
