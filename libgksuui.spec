@@ -2,7 +2,7 @@ Summary:	libgksuui library
 Summary(pl.UTF-8):	Biblioteka libgksuui
 Name:		libgksuui
 Version:	1.0.7
-Release:	5
+Release:	6
 License:	LGPL
 Group:		Libraries
 Source0:	http://people.debian.org/~kov/gksu/libgksuui1.0/%{name}1.0-%{version}.tar.gz
