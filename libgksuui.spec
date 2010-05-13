@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://people.debian.org/~kov/gksu/libgksuui1.0/%{name}1.0-%{version}.tar.gz
 # Source0-md5:	c22648bbb17aa942a97cc325e3a85752
 URL:		http://www.nongnu.org/gksu/
+BuildRequires:	docbook-dtd412-xml
 BuildRequires:	gtk+2-devel >= 2:2.10.1
 BuildRequires:	gtk-doc >= 1.0
 BuildRequires:	pkgconfig
