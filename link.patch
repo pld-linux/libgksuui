@@ -1,0 +1,11 @@
+--- libgksuui1.0-1.0.7/libgksuui/Makefile.am.wiget	2011-04-06 16:10:49.182818410 +0200
++++ libgksuui1.0-1.0.7/libgksuui/Makefile.am	2011-04-06 16:12:13.312786848 +0200
+@@ -21,7 +21,7 @@ pkgconfig_DATA = $(PACKAGE).pc
+ noinst_PROGRAMS = test-gksuui
+ test_gksuui_SOURCES = test-gksuui.c
+ test_gksuui_LDADD = $(PACKAGE).la
+-test_gksuui_LDFLAGS = `pkg-config --libs glib-2.0`
++test_gksuui_LDFLAGS = `pkg-config --libs gtk+-x11-2.0`
+ 
+ EXTRA_DIST = libgksuui.ver
+ 
