@@ -13,7 +13,7 @@ URL:		http://www.nongnu.org/gksu/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	docbook-dtd412-xml
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.10.1
 BuildRequires:	gtk-doc >= 1.0
 BuildRequires:	libtool
