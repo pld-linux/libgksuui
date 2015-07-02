@@ -2,7 +2,7 @@ Summary:	libgksuui library
 Summary(pl.UTF-8):	Biblioteka libgksuui
 Name:		libgksuui
 Version:	1.0.7
-Release:	8
+Release:	9
 License:	LGPL
 Group:		Libraries
 Source0:	http://people.debian.org/~kov/gksu/libgksuui1.0/%{name}1.0-%{version}.tar.gz
@@ -55,6 +55,9 @@ Statyczna biblioteka libgksuui.
 Summary:	libgksuui API documentation
 Summary(pl.UTF-8):	Dokumentacja API biblioteki libgksuui
 Group:		Documentation
+%if "%{_rpmversion}" >= "5"
+BuildArch:	noarch
+%endif
 
 %description apidocs
 API and internal documentation for libgksuui library.
@@ -81,7 +84,6 @@ Dokumentacja API biblioteki libgksuui.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
